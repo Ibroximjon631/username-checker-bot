@@ -18,8 +18,8 @@ class Settings(BaseSettings):
     api_hash: str = ""
     telethon_session: str = "username_checker"
 
-    # Monitoring
-    check_interval_minutes: int = 10
+    # Monitoring (daqiqa) — shaxsiy/kam foydalanuvchi uchun 30 xavfsiz va yengil
+    check_interval_minutes: int = 30
 
     # Fragment (sotuvdagi username narxini ko'rsatish)
     fragment_enabled: bool = True
